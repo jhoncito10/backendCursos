@@ -21,7 +21,6 @@ import com.cursos.services.IAsignaturaService;
 
 
 
-@CrossOrigin(origins = {"http://localhost:4200"})
 @RestController
 @RequestMapping("/api")
 public class AsignaturaController {

@@ -19,7 +19,6 @@ import com.cursos.models.entity.Profesor;
 import com.cursos.services.IProfesorService;
 
 
-@CrossOrigin(origins = {"http://localhost:4200"})
 @RestController
 @RequestMapping("/api")
 public class ProfesorController {
