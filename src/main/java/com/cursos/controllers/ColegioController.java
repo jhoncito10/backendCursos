@@ -19,6 +19,7 @@ import com.cursos.models.entity.Colegio;
 import com.cursos.services.IColegioService;
 
 
+@CrossOrigin(origins = {"http://localhost:4200", "https://friendly-shirley-ec93e7.netlify.app"})
 @RestController
 @RequestMapping("/api")
 public class ColegioController {

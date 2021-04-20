@@ -21,6 +21,7 @@ import com.cursos.services.IAsignaturaService;
 
 
 
+@CrossOrigin(origins = {"http://localhost:4200", "https://friendly-shirley-ec93e7.netlify.app"})
 @RestController
 @RequestMapping("/api")
 public class AsignaturaController {

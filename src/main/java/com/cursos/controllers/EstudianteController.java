@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cursos.models.entity.Estudiante;
 import com.cursos.services.IEstudianteService;
 
+@CrossOrigin(origins = {"http://localhost:4200", "https://friendly-shirley-ec93e7.netlify.app"})
 @RestController
 @RequestMapping("/api")
 public class EstudianteController {
